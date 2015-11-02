@@ -1,0 +1,27 @@
+{
+    "name": "LibWork",
+    "description": "Not a framework, just libraries",
+    "keywords": ["Medoo", "Twig", "   ...   "],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sheck",
+            "email": "sheck@list.ru",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "catfan/Medoo": "^1.0",
+        "baryshev/tree-route": "^1.1",
+        "twig/twig": "^1.23",
+        "filp/whoops": "^1.1",
+        "guzzlehttp/guzzle": "^6.1",
+        "pimple/pimple": "^3.0",
+        "vlucas/phpdotenv": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LibWork\\": "src/"
+        }
+    }
+}
